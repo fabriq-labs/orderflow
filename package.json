@@ -1,0 +1,21 @@
+{
+  "name": "orderflow-marketing",
+  "version": "1.0.0",
+  "description": "OrderFlow Marketing Website - Complete Order Management for Salesforce CPQ",
+  "main": "marketing-site.html",
+  "scripts": {
+    "start": "python3 -m http.server $PORT",
+    "dev": "python3 -m http.server 8080"
+  },
+  "keywords": [
+    "order-management",
+    "salesforce-cpq",
+    "marketing",
+    "static-site"
+  ],
+  "author": "OrderFlow Team",
+  "license": "MIT",
+  "engines": {
+    "python": "3.8+"
+  }
+}
