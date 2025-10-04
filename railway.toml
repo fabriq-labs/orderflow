@@ -1,11 +1,11 @@
 # Railway deployment configuration for OrderFlow Marketing Site
 
-# This is a static HTML site served by Python's built-in HTTP server
-# Railway will automatically detect this as a Python project
+# This is a static HTML site served by Node.js serve package
+# Railway will automatically detect this as a Node.js project
 
 # The marketing-site.html file will be served as the main page
 # All assets (CSS, JS) are embedded in the HTML file for simplicity
 
 # Port configuration
 # Railway will set the PORT environment variable automatically
-# Our start script uses: python3 -m http.server $PORT
+# Our start script uses: npx serve -s . -l $PORT

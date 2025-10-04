@@ -13,10 +13,13 @@ A static marketing website for OrderFlow - Complete Order Management for Salesfo
 ## Local Development
 
 ```bash
-# Start local server
-python3 -m http.server 8080
+# Install dependencies
+npm install
 
-# View site at http://localhost:8080/marketing-site.html
+# Start local server
+npm run dev
+
+# View site at http://localhost:8080
 ```
 
 ## Railway Deployment
@@ -24,12 +27,12 @@ python3 -m http.server 8080
 This project is configured for Railway deployment:
 
 1. Connect your GitHub repository to Railway
-2. Railway will automatically detect the Python configuration
+2. Railway will automatically detect the Node.js configuration
 3. The site will be deployed and accessible via Railway's provided URL
 
 ## Files
 
-- `marketing-site.html` - Main marketing website
+- `index.html` - Main marketing website (serves as homepage)
 - `package.json` - Node.js configuration for Railway
 - `railway.toml` - Railway deployment configuration
 - `README.md` - This file
